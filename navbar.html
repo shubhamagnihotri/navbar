@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="navbar.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+<div style="width: 100%;height: 60px;background: #4ecbc2;" class="uppernavpanel">
+	<i class="fas fa-chevron-circle-down dropicon" style="font-size: xx-large;line-height:52px;margin-right: 25px;
+float: right;color: white;"></i>
+</div>	
+ <div class="navbar">
+	<ul>
+	  <li><a class="active" href="#home">Home</a></li>
+	  <li><a href="#news">News</a></li>
+	  <li><a href="#contact">Contact</a></li>
+	  <li><a href="#about">About</a></li>
+	   <li><a href="#contact">Contact</a></li>
+
+	</ul>	
+
+ </div>
+ <div class="container" style="width: 100%;background: #f0eded; height: auto; position: fixed;margin-bottom: 50px">
+ 	<div class="jumbotraon" style="width: 70%;background: #d2caca;height: auto;margin: 50px auto;border-radius: 20px;padding: 15px;">
+ 		<h1 style="font-size:88px;font-weight: initial;font-family: arial sans ;color: #656565">Hello, world</h1>
+ 		<p class="pfont">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+ 		<hr>
+ 		<p class="pfont">It uses utility classes for typography and spacing to space content out within the larger container.</p>
+
+
+
+ 	</div>
+ </div>
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.navbar').hide();
+		$(".dropicon").click(function(){
+			$(".navbar").fadeToggle("fast");
+		});
+	});
+</script>
+
+
+</body>
+</html>
